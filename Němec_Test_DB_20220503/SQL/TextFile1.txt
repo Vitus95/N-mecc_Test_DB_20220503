@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Faktura] INT NULL, 
+    [Datum] DATE NULL, 
+    [Odberatel] NVARCHAR(50) NULL
+)
+
+
